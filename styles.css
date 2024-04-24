@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Financier+Display:wght@400;700&display=swap');
+
+body {
+    position: absolute;
+    
+    margin: 0;
+    padding: 0;
+    font-family: 'Financier Display', serif;
+}
+
+header h1 {
+    font-family: 'Financier Display', serif;
+    font-size: 32px;
+}
+
+section {
+    text-align: center;
+}
+
+header {
+    background-color: #0c4eb1;
+    /* Bright blue */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    color: #fffcfc;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 2px;
+}
+
+.content {
+    padding: 20px;
+}
+
+footer {
+    background-color: #0c4eb1;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+.epi-footer {
+    background: #e8e8e8;
+    padding: 25px 0 4em 0;
+    font-family: proxima-nova, "Proxima Nova", sans-serif;
+    color: #666;
+    font-size: 14px;
+    border: 1px solid #ccc;
+}
+
+.width-wrap {}
+
+#box0 {
+    margin: 70px;
+}
+
+#box1 {
+    margin: 30px;
+}

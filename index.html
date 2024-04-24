@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.1/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.1/addons/p5.sound.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Economic Growth Data</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="sketch.js"></script>
+    <script src="sample.js"></script>
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Financier+Display:wght@400;700&display=swap');
+
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Financier Display', serif; 
+    }
+
+    header h1 {
+        font-family: 'Financier Display', serif;
+        font-size: 32px; 
+    }
+
+    section {
+        text-align: center;
+    }
+
+    header {
+        background-color: #0c4eb1; /* Bright blue */
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+    h1 {
+        margin: 0;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li {
+        display: inline;
+        margin-right: 20px;
+        color: #fffcfc;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: #000;
+        font-size: 14px;
+        border-bottom: 1px solid #000; 
+        padding-bottom: 2px; 
+    }
+
+    .content {
+        padding: 20px;
+    }
+
+    footer {
+        background-color: #0c4eb1;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+    }
+
+    footer p {
+        margin: 0; 
+    }
+
+    h2 {
+        margin-top: 30px;
+    }
+
+    .epi-footer {
+background: #e8e8e8;
+padding: 25px 0 4em 0;
+font-family: proxima-nova, "Proxima Nova", sans-serif;
+color: #666;
+font-size: 14px;
+border: 1px solid #ccc; 
+
+
+    .width-wrap {
+        
+    }
+</style>
+
+
+
+
+
+
+
+
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Economic Growth Factors</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Introduction</a></li>
+                <li><a href="#factors">Macroeconomic Factors</a></li>
+                <li><a href="#macro">Microeconomic Factors</a></li>
+                <li><a href="#micro">Policy Influences</a></li>
+                <li><a href="#policy">Conclusion</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Introduction Section -->
+    <div id="box0">
+        <div class="card text-center border-light mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Introduction</h5>
+                <p class="card-text"><p>Welcome to our website dedicated to exploring the intricate web of economic growth factors. In today's
+                    dynamic global economy, understanding the drivers behind economic expansion is crucial for policymakers,
+                    businesses, investors, and individuals alike. This website aims to provide a comprehensive overview of
+                    the diverse range of factors that contribute to economic growth.</p>
+    
+                <p>At the heart of our exploration lie two fundamental categories of influences: macroeconomic and
+                    microeconomic factors. Macroeconomic forces encompass the broad economic indicators and trends that
+                    shape the overall performance of a nation's economy. These include factors such as gross domestic
+                    product (GDP) growth, inflation rates, unemployment levels, fiscal policies, and monetary policies.</p>
+    
+                <p>In contrast, microeconomic factors delve into the granular details of individual markets, industries, and
+                    consumer behaviors. Microeconomic forces examine how factors like consumer demand, supply and demand
+                    dynamics, market competition, technological advancements, and regulatory frameworks impact economic
+                    growth at a more localized level.</p>
+    
+                <p>Beyond these economic fundamentals, our exploration extends to the realm of policy considerations.
+                    Government policies, both at the domestic and international levels, wield significant influence over
+                    economic growth trajectories. Fiscal policies, such as taxation and government spending, and monetary
+                    policies, including interest rate adjustments and money supply management, are crucial tools in shaping
+                    economic outcomes. Additionally, regulatory frameworks, trade policies, and geopolitical dynamics all
+                    play pivotal roles in shaping the economic landscape.</p>
+    
+                <p>Through insightful analysis and engaging visualizations, this website aims to shed light on the complex
+                    interplay of these economic growth factors. Whether you're a student, an academic researcher, a
+                    policymaker, or simply a curious individual seeking to understand the forces driving economic
+                    prosperity, we invite you to explore our content and embark on a journey of discovery.</p></p>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <!-- Factors Section -->
+    <div id="box1">
+
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card border-light mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Introduction</h5>
+                        <p class="card-text">This section provides an overview of the economic growth factors, including
+                            their impact on overall economic performance.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card border-light mb-3" >
+                    <div class="card-body">
+                        <h5 class="card-title">Macroeconomic Factors</h5>
+                        <p class="card-text">Macroeconomic factors such as GDP growth, inflation rates, and unemployment
+                            levels play a significant role in shaping economic growth.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card border-light mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Microeconomic Factors</h5>
+                        <p class="card-text">Microeconomic factors, including consumer behavior, industry
+                            competitiveness, and technological innovation, also contribute to economic growth.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card border-light mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Policy Influences</h5>
+                        <p class="card-text">Policies enacted by governments, such as fiscal and monetary measures,
+                            regulatory frameworks, and trade agreements, can significantly impact economic growth
+                            trajectories.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="card text-center border-light mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Conclusion</h5>
+                <p class="card-text">In conclusion, understanding and addressing various economic growth factors are
+                    essential for fostering sustainable economic development and prosperity.</p>
+            </div>
+        </div>
+        <br>
+
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>References sourced: [List of references]</p>
+    </footer>
+
+</body>
+
+</html>
